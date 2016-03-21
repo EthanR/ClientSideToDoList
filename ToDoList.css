@@ -1,0 +1,66 @@
+body {
+    background-color: lightslategray;
+}
+
+h1 {
+    text-align: center;    
+    font-weight: 500;
+    line-height: 1.5em;
+    font-size: 3em;
+    font-family: cursive;
+}
+
+.to-do-items-container {
+    text-align: center;
+    height: 700px;
+    overflow: auto;
+}
+
+.to-do-item {
+    background-color: white;
+    border-radius: 20px;
+    height: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    position: relative;
+}
+
+.to-do-item-close-button {
+    border: none;
+    background-color: transparent;        
+    cursor: pointer;
+    outline: 0px;
+    position: absolute;
+    right: 1%;
+    font-size: 15px;
+}
+
+.to-do-item div[contenteditable=true]{
+    height: 65%;
+    width: 80%;
+    font-size: 20px; 
+    outline: 0px;  
+    overflow: hidden;
+    text-align: left;
+    font-family: cursive;
+    display: inline-block;
+    margin-top: 4%;
+}
+
+.add-button {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    outline: 0px;
+}
